@@ -6,7 +6,7 @@ i've, obviously, **not** included `pak0.pk3` in this repository.
 ##### installing
 
 * clone the repository
-* extract the baseq3 folder with `cat baseq3.tar.gz.* > baseq3.tar.gz && tar -zxf baseq3.tar.gz && rm baseq3.tar.gz`
+* extract the archive with `cat baseq3.tar.gz.* > baseq3.tar.gz && tar -zxf baseq3.tar.gz && rm baseq3.tar.gz`
 * move your copy of `pak0.pk3` into `baseq3/`
 
 ##### playing
