@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+/path/to/your/ioquake3.app/Contents/MacOS/ioq3ded \
+  +set dedicated 1 \
+  +set net_ip your.lan.ip.address \
+  +set com_hunkmegs 256 \
+  +set sv_hostname "office-quake" \
+  +set g_motd "welcome to office-quake!" \
+  +set fraglimit 50 \
+  +set timelimit 60 \
+  +set g_forcerespawn 1 \
+  +set rconpassword "office-quake" \
+  +set sv_pure 1 \
+  +set fs_game osp \
+  +set vm_game 2 \
+  +set fs_basepath /path/to/your/quake \
+  +exec default
